@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 transaction.replace(R.id.content, button1Fragment);
                 break;
         }
-        //添加返回栈
+        //添加返回栈,按back键可以返回上一个碎片
         transaction.addToBackStack(null);
         // 事务提交
         transaction.commit();
