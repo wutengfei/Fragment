@@ -11,11 +11,9 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-
     private ContentFragment contentFragment;
     private Button1Fragment button1Fragment;
     private Button2Fragment button2Fragment;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
